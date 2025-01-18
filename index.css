@@ -1,0 +1,203 @@
+/* First and Last name styles
+
+Styles needed to make text center and larger.
+
+*/
+
+.CoverFnameLname
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Contact information styles
+
+Styles needed to keep links aligned and to the edges of div.
+
+*/
+
+.contact-info1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-info div
+{
+    flex: 1;   
+}
+
+.toEdge
+{
+    text-align: right;
+}
+
+/* Body Align Styles
+
+Styles needed to keep the format of the body.
+
+*/
+
+.Align-Body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    gap: 20px;
+}
+
+/* Summary Styles
+
+Styles needed to keep aligned within body width, and keep under summary header style.
+
+*/
+
+.summary-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+}
+
+.summary-exp
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+/* Education Styles
+
+Styles needed to display colleges attending and attended, to display lists at equal side by side positioning.
+
+*/
+
+.education-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+}
+
+.Studys-paragraph
+{
+    margin-top: -10px;
+}
+
+.course-work
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.course-columns
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.course-columns ul
+{
+    flex:1;
+    padding-left: 15%;
+}
+
+/* Experience Styles
+
+Styles needed to keep page organized with bullet points, along with the date on the oposite side of the wording.
+
+*/
+
+.experience 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 50%;
+    gap: 10px; 
+}
+
+.experience p 
+{
+    margin: 0; 
+}
+
+.place 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.work-info
+{
+    flex: 1;
+}
+
+.date-worked
+{
+    text-align: right;
+    flex: 0;
+}
+
+.date-worked2
+{
+    /* Nothing required */
+}
+
+/* Achievements and Activites Styles
+
+Styles needed to align header to left and keep list organized within div below
+
+*/
+
+.achievements
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.activites
+{
+    margin: 0;
+}
+
+.link-to-game
+{
+    text-decoration: none;
+}
+
+/* Image Styles
+
+Styles needed to keep images aligned and text below.
+
+*/
+
+.img-styles
+{
+    height: 275px;
+    width: 150px;
+}
+
+.img-styles2
+{
+    height: 275px;
+    width: 200px;
+}
+
+.Image-format
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
