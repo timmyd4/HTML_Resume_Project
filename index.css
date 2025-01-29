@@ -23,6 +23,8 @@ Styles needed to keep links aligned and to the edges of div.
     width: 50%;
 }
 
+
+
 .contact-info div
 {
     flex: 1;   
@@ -254,9 +256,24 @@ Styles for Small Screens
 
     .contact-info1
     {
+        display: flex;
         flex-direction: column; 
         align-items: center; 
-        gap: 10px; 
+        justify-content: center;
+    }
+
+    .info
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toEdge
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .course-columns
