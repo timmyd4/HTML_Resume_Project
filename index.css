@@ -262,6 +262,11 @@ Styles for Small Screens
         justify-content: center;
     }
 
+    .align-info
+    {
+        text-align: center;
+    }
+
     .info
     {
         display: flex;
